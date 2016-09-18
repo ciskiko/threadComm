@@ -1,0 +1,2 @@
+# threadComm
+python comunication thread
