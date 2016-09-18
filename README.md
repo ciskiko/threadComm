@@ -23,8 +23,8 @@ threadComm.wait_data
 
 Definition: Returns data from the buffer with a timeout
 
-num_loop: Number of times the loop is repeated
--returns a list where data [0] if true everything was correct , data [1] function name , data [2] here are data time_wait: Timeout for each turn of the loop
+num_loop: Number of times the loop is repeated.
+Returns a list where data [0] if true everything was correct , data [1] function name , data [2] here are data time_wait: Timeout for each turn of the loop
 
 threadComm.get_data
 
