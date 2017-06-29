@@ -1,39 +1,26 @@
 # threadComm
 python comunication thread
 
--You need PyQt
+##You need PyQt
 
 https://www.riverbankcomputing.com/software/pyqt/download
 
-instance of the queue class
+###instance of the queue class
 
 max_data: Number in maximum bytes per transfer
 
 max_buffer: Number in maximum bytes that can contain the buffer, If it exceeds the maximum of bytes in the buffer were removed the data to be at the maximum specified bytes.
 
-Methods of instance
+Methods of instance threadcomm
+---
+* 'set_data'(anyone data):Sets data
+  'data':establish data buffer
 
-threadComm.set_data
+* 'wait_data' Returns data from the buffer with a timeout
 
-Definition: Sets data
+* 'num_loop' Number of times the loop is repeated.Returns a list where data [0] if true everything was correct , data [1] function name , data [2] here are data time_wait: Timeout for each turn of the loop.
 
-data: establish data buffer
+* 'get_data' Returns the data in the buffer -returns a list where data [0] if true everything was correct , data [1] function name , data [2] here are data.
 
-threadComm.wait_data
-
-Definition: Returns data from the buffer with a timeout
-
-num_loop: Number of times the loop is repeated.
-Returns a list where data [0] if true everything was correct , data [1] function name , data [2] here are data time_wait: Timeout for each turn of the loop
-
-threadComm.get_data
-
-Definition: Returns the data in the buffer -returns a list where data [0] if true everything was correct , data [1] function name , data [2] here are data
-
--No arguments
-
-threadComm.len_buffer
-
-Definition: Returns the data in the buffer
-
--No arguments
+* 'len_buffer' Returns the data in the buffer
+---
