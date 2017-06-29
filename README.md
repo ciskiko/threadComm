@@ -1,18 +1,17 @@
-# threadComm
+#threadcom
 
 python comunication thread
 
-Requisites
+#Requisites
 You need PyQt
 
 https://www.riverbankcomputing.com/software/pyqt/download
 
-instance of the queue class
----
-* params instance
-  *`max_data`(int )Number in maximum bytes per transfer
+#instance of the queue class
+
+* params instance.
   * `max_buffer`: Number in maximum bytes that can contain the buffer, If it exceeds the maximum of bytes in the buffer were removed the data to be at the maximum specified bytes.
- 
+  * `max_data`(int )Number in maximum bytes per transfer.
 * `set_data`(anyone data):Sets data
   * `data` establish data buffer
 
@@ -23,4 +22,4 @@ instance of the queue class
 * `get_data` Returns the data in the buffer -returns a list where data [0] if true everything was correct , data [1] function name , data [2] here are data.
 
 * `buffer`eturns the data in the buffer
----
+
