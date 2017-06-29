@@ -10,7 +10,6 @@ https://www.riverbankcomputing.com/software/pyqt/download
 instance of the queue class
 ---
 * params instance
-
   *`max_data`(int )Number in maximum bytes per transfer
   * `max_buffer`: Number in maximum bytes that can contain the buffer, If it exceeds the maximum of bytes in the buffer were removed the data to be at the maximum specified bytes.
  
